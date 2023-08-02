@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pepsi.com</title>
+    <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        display: flex;
+        width: 100%;
+        height: 700px;
+        background: yellow;
+      }
+      .right {
+        width: 65%;
+        height: 100%;
+        background: blue;
+        position: relative;
+      
+      }
+      
+      .right img {
+        width: 100%;
+        height: 100%;
+      }
+      .right img:last-child {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 60%;
+        height: 25%;
+      }
+      .left {
+        width: 35%;
+        height: 100%;
+        background: red;
+      }
+      .left-section {
+        width: 100%;
+        height: 50%;
+        background: #0065c3;
+   
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .left-section-item {
+        width: 80%;
+        height: 70%;
+        background: orange;
+      }
+
+      .left-section-item img {
+        width: 100%;
+        height: 100%;
+      }
+
+      .left-section-item .line {
+        width: 100%;
+        height: 15%;
+        background: blue;
+        margin-top: -2%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      /* random  */
+      p {
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <div class="left-section">
+          <div class="left-section-item">
+            <img src="./assets/images/img2.jpg" alt="" />
+            <div class="line">
+              <p>BETTER WITH PEPSI | RIBS</p>
+            </div>
+          </div>
+        </div>
+        <div class="left-section">
+          <div class="left-section-item">
+            <img src="./assets/images/img3.jpg" alt="" />
+            <div class="line">
+              <p>BETTER WITH PEPSI | NACHOS</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        
+        <img src="./assets/images/img1.jpg" alt="" />
+        <img src="./assets/images/img4.png" alt="" />
+        
+      </div>
+    </div>
+  </body>
+</html>
